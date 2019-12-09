@@ -7,6 +7,7 @@
   "main": "node_modules/expo/AppEntry.js",
   "repository": {
     "type": "git",
+    "url": "git://github.com/200even/carmi-used-cars.git"
   },
   "scripts": {
     "start": "expo start",
