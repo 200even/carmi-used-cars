@@ -1,3 +1,4 @@
+// eslint-disable-next-line import/no-unresolved
 import { Appearance } from "react-native-appearance";
 
 export function getColorForTheme(hex: string): string {

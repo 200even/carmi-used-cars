@@ -1,12 +1,13 @@
 import React, { memo } from "react";
 import { Image } from "react-native";
 import { Header, Left, Body, Right, Button, Icon } from "native-base";
+// eslint-disable-next-line import/no-unresolved
 import { Appearance } from "react-native-appearance";
 import commonColor from "../../native-base-theme/variables/commonColor";
 
 const LogoBars = require("../../assets/Cardmi_Bars_Transparent.png");
-const LogoWhiteText = require("../../assets/logo_white_text_only.png");
-const LogoText = require("../../assets/logo_text_only.png");
+const LogoWhiteText = require("../../assets/Carmi_Logo_Text_Dark.png");
+const LogoText = require("../../assets/Carmi_Logo_Text.png");
 
 const MainHeader = memo(() => (
   <Header>

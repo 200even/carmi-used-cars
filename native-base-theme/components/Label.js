@@ -1,12 +1,10 @@
 // @flow
 
 export default () => {
-  const labelTheme = {
-    '.focused': {
+  return {
+    ".focused": {
       width: 0
     },
     fontSize: 17
   };
-
-  return labelTheme;
 };

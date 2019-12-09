@@ -1,10 +1,10 @@
 // @flow
 
-import variable from './../variables/platform';
+import variable from "../variables/platform";
 
 export default (variables /* : * */ = variable) => {
-  const inputTheme = {
-    '.multiline': {
+  return {
+    ".multiline": {
       height: null
     },
     height: variables.inputHeightBase,
@@ -14,6 +14,4 @@ export default (variables /* : * */ = variable) => {
     flex: 1,
     fontSize: variables.inputFontSize
   };
-
-  return inputTheme;
 };

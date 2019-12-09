@@ -1,10 +1,8 @@
 // @flow
 
 export default () => {
-  const tabTheme = {
+  return {
     flex: 1,
-    backgroundColor: '#FFF'
+    backgroundColor: "#FFF"
   };
-
-  return tabTheme;
 };
